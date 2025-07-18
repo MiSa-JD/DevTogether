@@ -27,7 +27,9 @@
     <div class="text-neutral-500 my-10 flex flex-col place-items-center">
       <p class="m-1">게시글이 비었습니다...</p>
       <p class="m-1">아니면 서버와 연결이 끊어졌거나요...</p>
-      <p class="m-1">(슬픈 사진)</p>
+      <button type="button" onclick={() => alert("슬픈 고양이..")} class="cursor-grab">
+        <img src='../../cryingCat.jpg' class='h-50' />
+      </button>
     </div>
   {/if}
   {#each posts as post}

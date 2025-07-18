@@ -90,7 +90,7 @@ const testPostData: App.PostData = {
     }
   }
 }`,
-    createDate: "0000.00.00T00:00:00",
+    createDate: "2000-10-10T10:10:10",
   
     id: -1,
     title: "테스트 페이지입니다.",
